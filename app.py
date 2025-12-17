@@ -16,6 +16,7 @@ MODELS_DIR = Path("models")
 NODES_CSV = DATA_DIR / "nodes.csv"
 EDGES_CSV = DATA_DIR / "edges.csv"
 MODEL_PATH = MODELS_DIR / "rf_flow.pkl"
+LINEAR_MODEL_PATH = MODELS_DIR / "linear_flow.pkl"
 
 FEATURES = [
     "hour",
@@ -59,8 +60,59 @@ def load_model():
     return joblib.load(MODEL_PATH)
 
 
+def ensure_linear_model():
+    """Train the baseline linear model if it's missing."""
+    MODELS_DIR.mkdir(exist_ok=True)
+    if LINEAR_MODEL_PATH.exists():
+        return
+    print("Linear model not found; training linear_flow.pkl...")
+    try:
+        from train_linear_model import main as train_linear_main
+
+        train_linear_main()
+    except FileNotFoundError:
+        print("Flow splits missing; generating synthetic flows for linear model...")
+        from generate_synthetic_flows import main as gen_flows
+
+        gen_flows()
+        from train_linear_model import main as train_linear_main
+
+        train_linear_main()
+
+
+def ensure_model():
+    """
+    Train the RandomForest model at runtime if it's missing, otherwise load it.
+    Also ensures the baseline linear model exists. Falls back to generating
+    synthetic flow splits if training data is absent.
+    """
+    MODELS_DIR.mkdir(exist_ok=True)
+    if MODEL_PATH.exists():
+        ensure_linear_model()
+        return load_model()
+
+    print("Model not found at models/rf_flow.pkl; training a fresh model...")
+    try:
+        from train_rf_model import main as train_rf_main
+
+        train_rf_main()
+    except FileNotFoundError:
+        print("Flow splits missing; generating synthetic flows first...")
+        from generate_synthetic_flows import main as gen_flows
+
+        gen_flows()
+        from train_rf_model import main as train_rf_main
+
+        train_rf_main()
+
+    # Build the baseline linear model too (handy for comparisons or backups)
+    ensure_linear_model()
+
+    return load_model()
+
+
 GRAPH = load_graph()
-MODEL = load_model()
+MODEL = ensure_model()
 FORECAST_CACHE: Dict[tuple, List[Dict]] = {}
 
 
