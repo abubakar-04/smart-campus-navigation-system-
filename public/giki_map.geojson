@@ -1,0 +1,933 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-12-09T12:16:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/235168191",
+        "addr:city": "Topi",
+        "amenity": "university",
+        "name": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
+        "name:ur": "غلام اسحق خان انسٹیٹیوٹ آف انجینئرنگ سائنس و ٹیکنالوجی",
+        "website": "https://www.giki.edu.pk/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.638883,
+              34.07071
+            ],
+            [
+              72.639205,
+              34.0674519
+            ],
+            [
+              72.6403014,
+              34.0673852
+            ],
+            [
+              72.6410447,
+              34.0674467
+            ],
+            [
+              72.6442532,
+              34.0680368
+            ],
+            [
+              72.6446681,
+              34.0681142
+            ],
+            [
+              72.6481059,
+              34.0687551
+            ],
+            [
+              72.6480452,
+              34.0691171
+            ],
+            [
+              72.6480354,
+              34.0691758
+            ],
+            [
+              72.648013,
+              34.0693093
+            ],
+            [
+              72.6480997,
+              34.069494
+            ],
+            [
+              72.6491341,
+              34.0701867
+            ],
+            [
+              72.6493324,
+              34.0704535
+            ],
+            [
+              72.6500571,
+              34.0717772
+            ],
+            [
+              72.6504225,
+              34.0721466
+            ],
+            [
+              72.6508189,
+              34.0723057
+            ],
+            [
+              72.6510667,
+              34.0724288
+            ],
+            [
+              72.6523055,
+              34.0732344
+            ],
+            [
+              72.6525347,
+              34.0735114
+            ],
+            [
+              72.6528134,
+              34.0739937
+            ],
+            [
+              72.6542009,
+              34.0748146
+            ],
+            [
+              72.6546345,
+              34.0752815
+            ],
+            [
+              72.6550247,
+              34.0759228
+            ],
+            [
+              72.6552477,
+              34.0764923
+            ],
+            [
+              72.6548171,
+              34.0773808
+            ],
+            [
+              72.654767,
+              34.077459
+            ],
+            [
+              72.6531352,
+              34.0800073
+            ],
+            [
+              72.6519965,
+              34.0815309
+            ],
+            [
+              72.6512297,
+              34.0809881
+            ],
+            [
+              72.6508704,
+              34.0805674
+            ],
+            [
+              72.6504554,
+              34.0804237
+            ],
+            [
+              72.6499599,
+              34.0805828
+            ],
+            [
+              72.6493405,
+              34.080357
+            ],
+            [
+              72.648783,
+              34.0802852
+            ],
+            [
+              72.6476867,
+              34.0798953
+            ],
+            [
+              72.6470115,
+              34.0798389
+            ],
+            [
+              72.6463983,
+              34.0799107
+            ],
+            [
+              72.6454073,
+              34.0795311
+            ],
+            [
+              72.6443914,
+              34.079213
+            ],
+            [
+              72.6440198,
+              34.079054
+            ],
+            [
+              72.6437473,
+              34.0787205
+            ],
+            [
+              72.6435871,
+              34.0789045
+            ],
+            [
+              72.6435472,
+              34.0790284
+            ],
+            [
+              72.643517,
+              34.0791222
+            ],
+            [
+              72.6430907,
+              34.0791155
+            ],
+            [
+              72.6426296,
+              34.0789233
+            ],
+            [
+              72.6419698,
+              34.0793177
+            ],
+            [
+              72.6417342,
+              34.0791053
+            ],
+            [
+              72.6414848,
+              34.0787594
+            ],
+            [
+              72.6405563,
+              34.0785707
+            ],
+            [
+              72.639838,
+              34.0782515
+            ],
+            [
+              72.6392248,
+              34.0778742
+            ],
+            [
+              72.6392073,
+              34.0774244
+            ],
+            [
+              72.6392248,
+              34.0768149
+            ],
+            [
+              72.6390671,
+              34.0760458
+            ],
+            [
+              72.6387342,
+              34.0757121
+            ],
+            [
+              72.6381561,
+              34.0747688
+            ],
+            [
+              72.6384189,
+              34.0741013
+            ],
+            [
+              72.638883,
+              34.07071
+            ]
+          ]
+        ]
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Hostel 6"
+      },
+      "geometry": {
+        "coordinates": [
+          72.63937304874494,
+          34.0700706144584
+        ],
+        "type": "Point"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Hostel 5"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64023519562647,
+          34.070133496626596
+        ],
+        "type": "Point"
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Hostel 3"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64023519562647,
+          34.06985052650475
+        ],
+        "type": "Point"
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Hostel 4"
+      },
+      "geometry": {
+        "coordinates": [
+          72.63938931566756,
+          34.0697921357271
+        ],
+        "type": "Point"
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Hostel 2"
+      },
+      "geometry": {
+        "coordinates": [
+          72.63947239578445,
+          34.06894267172362
+        ],
+        "type": "Point"
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Hostel 1"
+      },
+      "geometry": {
+        "coordinates": [
+          72.640352978262,
+          34.06900475194948
+        ],
+        "type": "Point"
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Hostel 10"
+      },
+      "geometry": {
+        "coordinates": [
+          72.63947864104992,
+          34.06878229759691
+        ],
+        "type": "Point"
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Hostel 9"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64029052560326,
+          34.06885472465932
+        ],
+        "type": "Point"
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Sports Complex"
+      },
+      "geometry": {
+        "coordinates": [
+          72.63958272937384,
+          34.068156899981844
+        ],
+        "type": "Point"
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Ground"
+      },
+      "geometry": {
+        "coordinates": [
+          72.6416033772748,
+          34.068757768995184
+        ],
+        "type": "Point"
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Hard Court"
+      },
+      "geometry": {
+        "coordinates": [
+          72.640457042751,
+          34.06808715585554
+        ],
+        "type": "Point"
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Tennis Court"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64267847066964,
+          34.068199819234096
+        ],
+        "type": "Point"
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Administration"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64352040198426,
+          34.06817835740772
+        ],
+        "type": "Point"
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Faculty of Electronics Engineering and Computer Sciences"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64328724867792,
+          34.06904210516646
+        ],
+        "type": "Point"
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Faculty of Engineering Sciences"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64223806114808,
+          34.069589319719455
+        ],
+        "type": "Point"
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Central Mess"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64114353839503,
+          34.06995949225855
+        ],
+        "type": "Point"
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Student Mosque"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64112410899602,
+          34.06949275269538
+        ],
+        "type": "Point"
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Auditorium"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64396079821728,
+          34.06992729780201
+        ],
+        "type": "Point"
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Faculty of Mechanical Engineering "
+      },
+      "geometry": {
+        "coordinates": [
+          72.6449775973563,
+          34.0693693549362
+        ],
+        "type": "Point"
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Faculty of Material and Chemical Engineering "
+      },
+      "geometry": {
+        "coordinates": [
+          72.64566410222159,
+          34.070200903078856
+        ],
+        "type": "Point"
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Academic Block"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64306703710622,
+          34.0704906012847
+        ],
+        "type": "Point"
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Library"
+      },
+      "geometry": {
+        "coordinates": [
+          72.6435851544052,
+          34.07132750191947
+        ],
+        "type": "Point"
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Brabers Building "
+      },
+      "geometry": {
+        "coordinates": [
+          72.64491930645002,
+          34.07161183166454
+        ],
+        "type": "Point"
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Medical Center"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64664204327536,
+          34.07144552513671
+        ],
+        "type": "Point"
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Ayan Gardens"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64736851505796,
+          34.07089494996565
+        ],
+        "type": "Point"
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Hot n Spicy"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64740875152086,
+          34.070790794671694
+        ],
+        "type": "Point"
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Raju Restaurnant"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64743892886844,
+          34.07062831215768
+        ],
+        "type": "Point"
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Asrar Bucks"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64745401754223,
+          34.07051582408023
+        ],
+        "type": "Point"
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "General Store"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64745653285951,
+          34.07046582918427
+        ],
+        "type": "Point"
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Fruit Shop"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64745150196524,
+          34.07035750697841
+        ],
+        "type": "Point"
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Stationary Shop"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64745904630124,
+          34.07031167837458
+        ],
+        "type": "Point"
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Tuc Shop"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64746407585977,
+          34.07024501854214
+        ],
+        "type": "Point"
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Juice Center"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64746156108049,
+          34.0701825249014
+        ],
+        "type": "Point"
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Laundry"
+      },
+      "geometry": {
+        "coordinates": [
+          72.6475696965745,
+          34.07012211433849
+        ],
+        "type": "Point"
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          72.64750551421835,
+          34.06978621828817
+        ],
+        "type": "Point"
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Habib Bank"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64631959811379,
+          34.06939604070949
+        ],
+        "type": "Point"
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "GIK School"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64724160531247,
+          34.06898372232854
+        ],
+        "type": "Point"
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "GIKI Guest House"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64600892371402,
+          34.06860184323773
+        ],
+        "type": "Point"
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "LOGIK"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64518892511495,
+          34.068513169244866
+        ],
+        "type": "Point"
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Incubation Center"
+      },
+      "geometry": {
+        "coordinates": [
+          72.6456901420556,
+          34.07172168763172
+        ],
+        "type": "Point"
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Gradute Hostel"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64481162092176,
+          34.07226367936349
+        ],
+        "type": "Point"
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Faculty Club"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64245518276408,
+          34.07245318524262
+        ],
+        "type": "Point"
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "New Gradute Hostel"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64216234406027,
+          34.073537153467115
+        ],
+        "type": "Point"
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "New GH"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64600495356146,
+          34.072317315053226
+        ],
+        "type": "Point"
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Girls Hostel"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64655808536517,
+          34.07211493019551
+        ],
+        "type": "Point"
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Hostel 7"
+      },
+      "geometry": {
+        "coordinates": [
+          72.64648682298545,
+          34.07185913753112
+        ],
+        "type": "Point"
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Residential Area"
+      },
+      "geometry": {
+        "coordinates": [
+          72.6502675838016,
+          34.072979669627486
+        ],
+        "type": "Point"
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Hostel 8"
+      },
+      "geometry": {
+        "coordinates": [
+          72.6411486333547,
+          34.07035719522489
+        ],
+        "type": "Point"
+      },
+      "id": 48
+    }
+  ]
+}
